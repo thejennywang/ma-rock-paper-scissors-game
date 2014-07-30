@@ -1,0 +1,64 @@
+h1 {
+	font-size: 75px;
+	padding: 75px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-size: 60px;
+	padding: 75px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+}
+
+h3 {
+	font-size: 50px;
+	padding: 0px 0 50px 0px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    height: 75px;
+}
+
+body {
+	background: #1a4b90;
+	font-family: sans-serif;
+	font: #FFFFFF;
+	text-align: center;
+}
+
+footer {
+	font-size: 24px;
+	padding: 50px 0 50px 0;
+	position: absolute;
+  bottom: 0;
+  width: 100%;
+	margin: 0 auto;
+}
+
+a {
+	color: #FFFFFF;
+	font-style: underline;
+}
+
+input {
+	width: 550px;
+	height: 70px;
+	font-size: 50px;
+}
+
+.normal-button {
+	height: 70px;
+	font-size: 50px;
+}
+
+.pick-button {
+	size: 100px;
+	background: transparent;
+	border: none;
+}
