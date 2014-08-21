@@ -1,9 +1,11 @@
 <% if @game.winner == "Draw" %>
  <h1> It was a draw! </h1>
- <% elsif @game.winner.name == "computer" %>
- <h1> You've lost! The computer won with <%= @game.winner.pick %></h1>
+<% elsif @game.winner.name == "computer" %>
+  <h1> You've lost!</h1>
+  <h2>The computer won with <%= @game.winner.pick %></h2>
 <% else %>
-<h1> You've won! <%= @game.winner.pick %> served you well.</h1>
+  <h1> You've won! </h1>
+  <h2><%= @game.winner.pick %> served you well.</h2>
 <%end%>
 
 <form action="/register" method="POST">
