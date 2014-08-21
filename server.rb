@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require 'newrelic_npm'
 require './lib/player'
 require './lib/game'
 
