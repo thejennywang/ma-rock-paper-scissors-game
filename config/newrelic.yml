@@ -3,7 +3,7 @@
 # .NET, PHP, Python and Node applications with deep visibility and low
 # overhead.  For more information, visit www.newrelic.com.
 #
-# Generated August 03, 2014
+# Generated August 21, 2014
 #
 # This configuration file is custom generated for Makers Academy_10
 
@@ -41,6 +41,13 @@ common: &default_settings
   #   app_name:
   #       - Ajax Service
   #       - All Services
+  #
+  # Caution: If you change this name, a new application will appear in the New
+  # Relic user interface with the new name, and data will stop reporting to the
+  # app with the old name.
+  #
+  # See https://newrelic.com/docs/site/renaming-applications for more details
+  # on renaming your New Relic applications.
   #
   app_name: My Application
 
