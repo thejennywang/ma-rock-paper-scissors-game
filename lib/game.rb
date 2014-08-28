@@ -20,3 +20,13 @@ class Game
 		pick.downcase.to_sym
 	end
 end
+
+class ComputerVsHumanGame < Game
+  def initialize(human)
+    super(human, computer)
+  end
+
+  def computer
+    Computer.new
+  end
+end

@@ -1,0 +1,13 @@
+# Logfile created on 2014-08-27 15:55:52 +0100 by logger.rb/44203
+[08/27/14 15:55:52 +0100 failbowl.local (53810)] INFO : Starting the New Relic agent in "development" environment.
+[08/27/14 15:55:52 +0100 failbowl.local (53810)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/27/14 15:55:52 +0100 failbowl.local (53810)] INFO : Reading configuration from config/newrelic.yml
+[08/27/14 15:55:52 +0100 failbowl.local (53810)] INFO : Environment: development
+[08/27/14 15:55:52 +0100 failbowl.local (53810)] INFO : No known dispatcher detected.
+[08/27/14 15:55:52 +0100 failbowl.local (53810)] INFO : Application: My Application (Development)
+[08/27/14 15:55:52 +0100 failbowl.local (53810)] INFO : Installing Net instrumentation
+[08/27/14 15:55:52 +0100 failbowl.local (53810)] INFO : Installing Sinatra instrumentation
+[08/27/14 15:55:52 +0100 failbowl.local (53810)] INFO : Installing deferred Rack instrumentation
+[08/27/14 15:55:52 +0100 failbowl.local (53810)] INFO : Installing Rack::Builder middleware instrumentation
+[08/27/14 15:55:52 +0100 failbowl.local (53810)] INFO : Finished instrumentation
+[08/27/14 15:55:53 +0100 failbowl.local (53810)] INFO : Reporting to: https://rpm.newrelic.com/accounts/731743/applications/4795382

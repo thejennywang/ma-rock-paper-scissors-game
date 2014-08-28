@@ -15,7 +15,7 @@ common: &default_settings
   # You must specify the license key associated with your New Relic
   # account.  This key binds your Agent's data to your account in the
   # New Relic service.
-  license_key: 'f3fc633b5dd94522e0faf42bbe3ff40705474cc2'
+  license_key: '38cee862c0f1aa5b1cf188a39f67fb833add619d'
 
   # Agent Enabled (Ruby/Rails Only)
   # Use this setting to force the agent to run or not run.
@@ -49,7 +49,7 @@ common: &default_settings
   # See https://newrelic.com/docs/site/renaming-applications for more details
   # on renaming your New Relic applications.
   #
-  app_name: RockPaperScissors
+  app_name: therockpaperscissorsgame 
 
   # When "true", the agent collects performance data about your
   # application and reports this data to the New Relic service at
@@ -221,4 +221,4 @@ production:
 staging:
   <<: *default_settings
   monitor_mode: true
-  app_name: My Application (Staging)
+  app_name: rps-staging

@@ -1,7 +1,7 @@
 require 'sinatra/base'
 require 'newrelic_rpm'
-require './lib/player'
-require './lib/game'
+require_relative 'lib/player'
+require_relative 'lib/game'
 
 class RockPaperScissors < Sinatra::Base
   get '/' do
@@ -23,6 +23,15 @@ class RockPaperScissors < Sinatra::Base
     computer = generate_computer
     @game = Game.new(player, computer)
     erb :outcome
+  end
+
+  post "/playvscomputer" do
+    @game = ComputerVsHumanGame.new(build_player)
+    erb :outcome
+  end
+
+  def build_player
+    Player.build_player(params[:name], params[:pick])
   end
 
   def generate_computer
