@@ -1,6 +1,6 @@
 h1 {
 	font-size: 75px;
-	padding: 75px;
+	padding-top: 75px;
 	margin-bottom: 0px;
 	color: #FFFFFF;
 }
@@ -38,6 +38,14 @@ body {
 a {
 	color: #FFFFFF;
 	font-style: underline;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+img {
+  padding: 30px;
 }
 
 input {

@@ -1,5 +1,6 @@
 <% if @game.winner == "Draw" %>
  <h1> It was a draw! </h1>
+ <h2> But we can settle this. </h2>
 <% elsif @game.winner.name == "computer" %>
   <h1> You've lost!</h1>
   <h2>The computer won with <%= @game.winner.pick %></h2>
